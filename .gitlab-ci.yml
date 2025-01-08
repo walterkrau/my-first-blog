@@ -1,0 +1,4 @@
+test:
+  image: selenium/standalone-chrome
+  script:
+    - node test/selenium-test.js
